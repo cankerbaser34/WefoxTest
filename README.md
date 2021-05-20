@@ -1,4 +1,4 @@
-#Wefox Group TestCase with Cucumber Framework and Selenium
+# Wefox Group TestCase with Cucumber Framework and Selenium
 
 This is a simple automation testing project which automate the workflow of booking hotel and login on 
 (https://www.phptravels.net/) with
