@@ -3,8 +3,8 @@
 This is a simple automation testing project which automate the workflow of booking hotel and login on 
 (https://www.phptravels.net/) with
 Cucumber and Selenium Web driver,executing by Junit, based on BDD framework.
-##Usage and set up
-###Environment
+## Usage and set up
+### Environment
 - Java 11.0.11
 - Maven
 - Intellij or Eclipse
@@ -18,7 +18,8 @@ from terminal with mvn verify command.
 -You may  need to change tags to run tests in CukesRunner java file or you can add more than one tags.
  tags = {@tag1,@tag2}
   
-``@RunWith(Cucumber.class)
+```
+@RunWith(Cucumber.class)
 @CucumberOptions(
 plugin = {"json:target/cucumber.json",
 "html:target/default-html-reports",
@@ -32,7 +33,8 @@ tags = "@login"
 
 public class CukesRunner {
 
-}``
+}
+```
 
 
 # WefoxTest
