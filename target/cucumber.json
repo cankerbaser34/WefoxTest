@@ -1,0 +1,399 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-19T23:30:45.844Z",
+        "before": [
+          {
+            "result": {
+              "duration": 852145000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wefox.stepdefinitons.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login as a guest",
+        "description": "",
+        "id": "users-should-be-able-to-login-with-given-credentials;login-as-a-guest",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3274622000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the  login page",
+            "match": {
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5244719000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user enters the \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.the_user_enters_the_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2075385000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should see the welcome text",
+            "match": {
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.the_user_should_see_the_welcome_text()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3639787000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should be able to logout by clicking logout button",
+            "match": {
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.theUserShouldBeAbleToLogoutByClickingLogoutButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-19T23:31:00.983Z",
+        "before": [
+          {
+            "result": {
+              "duration": 32262000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wefox.stepdefinitons.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login with different username and passwords",
+        "description": "",
+        "id": "users-should-be-able-to-login-with-given-credentials;login-with-different-username-and-passwords;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1570445000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user is on the  login page",
+            "match": {
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5160964000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the users enters \"\" \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.the_users_enters(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42902000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the users should get warning message as Invalid Email or Password",
+            "match": {
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.theUsersShouldGetWarningMessageAsInvalidEmailOrPassword()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-19T23:31:07.800Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5595000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wefox.stepdefinitons.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login with different username and passwords",
+        "description": "",
+        "id": "users-should-be-able-to-login-with-given-credentials;login-with-different-username-and-passwords;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1652809000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user is on the  login page",
+            "match": {
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5166859000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the users enters \"\" \"etete\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"etete\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.the_users_enters(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33758000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the users should get warning message as Invalid Email or Password",
+            "match": {
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.theUsersShouldGetWarningMessageAsInvalidEmailOrPassword()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-19T23:31:14.665Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4414000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wefox.stepdefinitons.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Login with different username and passwords",
+        "description": "",
+        "id": "users-should-be-able-to-login-with-given-credentials;login-with-different-username-and-passwords;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1628360000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user is on the  login page",
+            "match": {
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5169407000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the users enters \"ette\" \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ette\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.the_users_enters(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28430000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the users should get warning message as Invalid Email or Password",
+            "match": {
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.theUsersShouldGetWarningMessageAsInvalidEmailOrPassword()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-19T23:31:21.503Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7093000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wefox.stepdefinitons.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Login with different username and passwords",
+        "description": "",
+        "id": "users-should-be-able-to-login-with-given-credentials;login-with-different-username-and-passwords;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1593846000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user is on the  login page",
+            "match": {
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5186047000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the users enters \"user@phtravels.com\" \"54664\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user@phtravels.com\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"54664\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.the_users_enters(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66038000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the users should get warning message as Invalid Email or Password",
+            "match": {
+              "location": "com.wefox.stepdefinitons.LoginStepDefinitions.theUsersShouldGetWarningMessageAsInvalidEmailOrPassword()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Users should be able to login with given credentials",
+    "description": "",
+    "id": "users-should-be-able-to-login-with-given-credentials",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
