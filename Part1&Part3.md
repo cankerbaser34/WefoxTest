@@ -1,5 +1,4 @@
-
-#Part 1: Exploratory testing - Booking a stay in a hotel
+# Part 1: Exploratory testing - Booking a stay in a hotel
 
 ## Test Scenario1
 *Area:Login Functionality*
@@ -33,7 +32,7 @@
 - Hovering color especially in footer part is not nice. Another color can be used.
 - Text size and text format could be changed.
 
-##Test Scenario2
+## Test Scenario2
 
 *Area:Entering valid fields to book a hotel.*
 - Check input field of hotel search by entering location name and hotel name also.
