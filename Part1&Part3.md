@@ -47,7 +47,7 @@
 - Check Text size and color of the elements.
 - Check Functionality of buttons.
 
-###Testing Notes of Entering valid fields to book a hotel.
+### Testing Notes of Entering valid fields to book a hotel.
 
 *Area:Entering valid fields to book a hotel.*
 - Successfully hotels found  with the hotel name and city name
@@ -60,7 +60,7 @@
 - Just sometimes because of the slider on background and one photo(mountain), the search button is shadowed.
 - The quality of the photos could be improved.
 
-##Test Scenario3
+## Test Scenario3
 
 *Area:Modifying and  selecting room from listed room.*
 - Check the functionality of selecting room and number of room
@@ -75,7 +75,7 @@
 - Check text size and color of the elements.
 - Check functionality of buttons.
 
-###Testing Notes of modifying and selecting room from listed room.
+### Testing Notes of modifying and selecting room from listed room.
 
 *Area:Modifying and  selecting room from listed room.*
 - Rooms and numbers of room selected successfully.
@@ -103,7 +103,7 @@ about the hotels not retrieved.
 - Calendar part can be modified. 
 
 
-#Part 3: Reflection on the automation exercise
+# Part 3: Reflection on the automation exercise
 
 - We simply tried to do smoke and functional testing as part of system testing.
 - Smoke testing is very important to check the main functionality of the application 
