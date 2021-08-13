@@ -1,0 +1,15 @@
+com/wefox/pages/LoginPage.class
+com/wefox/stepdefinitons/LoginStepDefinitions.class
+com/wefox/pages/DominoQuickOrder.class
+com/wefox/stepdefinitons/CreateToPizza.class
+com/wefox/pages/BasePage.class
+com/wefox/utils/ConfigurationReader.class
+com/wefox/stepdefinitons/MyStepdefs.class
+com/wefox/runners/CukesRunner.class
+com/wefox/utils/BrowserUtils.class
+com/wefox/pages/HotelSearch.class
+com/wefox/utils/Driver.class
+com/wefox/pages/Dominorder.class
+com/wefox/stepdefinitons/Hooks.class
+com/wefox/utils/BrowserUtils$1.class
+com/wefox/stepdefinitons/SearchHotelStepDefinitions.class

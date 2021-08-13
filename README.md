@@ -5,8 +5,8 @@ This is a simple automation testing project which automate the workflow of booki
 Cucumber and Selenium Web driver,executing by Junit, based on BDD framework.
 ##Usage and set up
 ###Environment
-- Java 11.0.11
-- Maven
+- Have a JDK installed
+- Have Maven installed and available on your PATH or IDE
 - Intellij or Eclipse
 
 ### Important notes for import and quick start

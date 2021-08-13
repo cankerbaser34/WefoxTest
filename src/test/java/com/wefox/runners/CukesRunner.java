@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/wefox/stepdefinitons",
         dryRun = false,
-        tags = "@login"
+        tags = "@smoke"
 )
 
 public class CukesRunner {

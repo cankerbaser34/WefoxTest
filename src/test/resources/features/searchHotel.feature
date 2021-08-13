@@ -6,7 +6,6 @@ Feature:Customers should be able to search hotel names and books
     Given  the user is on the  login page
     When  the user enters the "username" and "password"
 
-  @smoke
   Scenario: Search and book a hotel room
     And the user navigates to main page
     Then the customer  enters "hotelname"

@@ -1,7 +1,7 @@
 @functional
 Feature: Users should be able to login with given credentials
 
-  @smoke
+
   Scenario: Login as a guest
     Given  the user is on the  login page
     When  the user enters the "username" and "password"

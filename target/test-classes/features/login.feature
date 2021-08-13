@@ -1,5 +1,6 @@
-@login
+@functional
 Feature: Users should be able to login with given credentials
+
 
   Scenario: Login as a guest
     Given  the user is on the  login page
@@ -7,6 +8,7 @@ Feature: Users should be able to login with given credentials
     Then the user should see the welcome text
     And the user should be able to logout by clicking logout button
 
+  @negative_test
   Scenario Outline: Login with different username and passwords
 
     Given the user is on the  login page
